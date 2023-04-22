@@ -42,20 +42,6 @@ def parse_option():
     parser.add_argument('--batch_size', type=int, default=256, help='batch_size')
     parser.add_argument('--print_freq', type=int, default=10, help='print frequency')
     
-    # parser.add_argument('--data_path', type=str, default=None, help='path to dataset')
-    # parser.add_argument('--eval_path', type=str, default=None, help='path to tested model')
-    # parser.add_argument('--teacher_path', type=str, default=None, help='path to teacher model')
-    # parser.add_argument('--dataset', type=str, default='miniImageNet', choices=['tieredImageNet', 'miniImageNet'], help='dataset')
-    # parser.add_argument('--print_freq', type=int, default=10, help='print frequency')
-    # parser.add_argument('--num_workers', type=int, default=16, help='num of workers to use')
-
-    # optimization setting
-    # parser.add_argument('--lr', type=float, default=0.3, help='learning rate')
-    # parser.add_argument('--wd', type=float, default=1e-4, help='weight decay')
-    # parser.add_argument('--momentum', type=float, default=0.9, help='momentum')
-    # parser.add_argument('--batch_size', type=int, default=256, help='batch_size')
-    # parser.add_argument('--epochs', type=int, default=400, help='number of training epochs')
-    # parser.add_argument('--lrd_step', action='store_true', help='decay learning rate per step')
     
     args = parser.parse_args()
 
